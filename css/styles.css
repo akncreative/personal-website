@@ -177,7 +177,14 @@ h1, h2, h3{
     border-width: 2px;
     padding-top: 14px;
 }
+.card-title{
+    color: #5E8B7E;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
 .card-text{
+    color: grey;
     padding-left: 8%;
     padding-right: 8%;
 }
