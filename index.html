@@ -7,9 +7,10 @@
     <link rel="icon" type="image/png" href="images/avatar.png" sizes="32x32">
     <link rel="icon" type="image/png" href="images/avatar.png" sizes="16x16">
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis:wght@200&family=Merriweather:wght@300&family=Montserrat:wght@200&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Roboto:wght@500&display=swap"
+    rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     
@@ -56,12 +57,12 @@
                 <div class="col-lg-6 text-center title-section">
                     <h1 class="greeting">Hello! howdy</h1>
                     <p class="designation">I am Anandu, a full stack web programmer</p>
-                    <form method="post" action="mailto:anandukrishnan.narayanan@gmail.com" >
+                    <form method="post" action="mailto:hello@akncreative.com" >
                         <button type="submit" class="btn btn-lg btn-outline-secondary contact-me-btn"><i class="fas fa-envelope-open-text"></i>  Contact Me</button>
                     </form>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <img class="cover-image" src="images/suit_2.png">
+                    <img class="cover-image" src="images/tech_1.png">
                 </div>
             </div> 
         </div>
@@ -108,51 +109,39 @@
         <h2 class="carousel-h2">Technical Skills</h2>
         <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner container-fluid">
-              <div class="carousel-item active">
-                <h4 class="technical-skills-heading">Web Technologies</h4>
-                <img class="technical-skills-image" src="images/frontend.png" alt="skill-image">
-                <p class="technical-skills-explanation">Passionate web developer comfortable working across the whole stack to deliver exceptional customer-facing products
-                    Comfortable working on latest technolo stack like html5, css3, bootstrap5, nodejs and reactjs.
-                </p>
-              </div>
-
               <div class="carousel-item">
                 <h4 class="technical-skills-heading">Backend Technologies</h4>
                 <img class="technical-skills-image" src="images/backend.png" alt="skill-image">
-                <p class="technical-skills-explanation">Passionate web developer comfortable working across the whole stack to deliver exceptional customer-facing products
-                    Comfortable working on latest technolo stack like html5, css3, bootstrap5, nodejs and reactjs.
+                <p class="technical-skills-explanation">Java 8, Spring Framework, Spring Boot, Spring Data Mongo, RESTful web
+                services, Microservices, Apache Kafka, Apache Camel, Junit.
                 </p>
               </div>
-
+              <div class="carousel-item active">
+                <h4 class="technical-skills-heading">Web Technologies</h4>
+                <img class="technical-skills-image" src="images/frontend.png" alt="skill-image">
+                <p class="technical-skills-explanation">HTML5, XML, CSS, JavaScript, Angular.
+                </p>
+              </div>
               <div class="carousel-item">
                 <h4 class="technical-skills-heading">Database</h4>
                 <img class="technical-skills-image" src="images/database.png" alt="skill-image">
-                <p class="technical-skills-explanation">Passionate web developer comfortable working across the whole stack to deliver exceptional customer-facing products
-                    Comfortable working on latest technolo stack like html5, css3, bootstrap5, nodejs and reactjs.
+                <p class="technical-skills-explanation">Oracle, MS SQL, MongoDB.
                 </p>
               </div>
-
-              <div class="carousel-item">
-                <h4 class="technical-skills-heading">Web Servers</h4>
-                <img class="technical-skills-image" src="images/server.png" alt="skill-image">
-                <p class="technical-skills-explanation">Passionate web developer comfortable working across the whole stack to deliver exceptional customer-facing products
-                    Comfortable working on latest technolo stack like html5, css3, bootstrap5, nodejs and reactjs.
-                </p>
-              </div>
-
               <div class="carousel-item">
                 <h4 class="technical-skills-heading">Tools & Utilities</h4>
                 <img class="technical-skills-image" src="images/tools.png" alt="skill-image">
-                <p class="technical-skills-explanation">Passionate web developer comfortable working across the whole stack to deliver exceptional customer-facing products
-                    Comfortable working on latest technolo stack like html5, css3, bootstrap5, nodejs and reactjs.
+                <p class="technical-skills-explanation">BM RSA, Clear Case, Eclipse, STS, intellij, Microsoft Visual Studio Code, Postman, Rest Client, Maven, Bitbucket, Git,
+                Jira, Confluence, Bamboo, IP
+                Switch, MongoDB Compass, Oracle SQL Developer, Microsoft SQL Server Management Studio.
                 </p>
               </div>
 
               <div class="carousel-item">
                 <h4 class="technical-skills-heading">Operating System</h4>
                 <img class="technical-skills-image" src="images/os.png" alt="skill-image">
-                <p class="technical-skills-explanation">Passionate web developer comfortable working across the whole stack to deliver exceptional customer-facing products
-                    Comfortable working on latest technolo stack like html5, css3, bootstrap5, nodejs and reactjs.
+                <p class="technical-skills-explanation">Microsoft Windows XP, Microsoft Windows 8, Microsoft Windows 10, Microsoft
+                Windows 11 Beta, Mac OSX, Linux UBUNTU, Kali Linux.
                 </p>
               </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
@@ -164,7 +153,7 @@
               <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <marquee onmouseover="this.stop();"  onmouseout="this.start();">
+        <div>
             <i class="fab fa-html5 fa-4x technical_skills_short_logo"></i>
             <i class="fab fa-css3-alt fa-4x technical_skills_short_logo"></i>
             <i class="fab fa-bootstrap fa-4x technical_skills_short_logo"></i>
@@ -175,30 +164,20 @@
             <i class="fab fa-jira fa-4x technical_skills_short_logo"></i>
             <i class="fab fa-confluence fa-4x technical_skills_short_logo"></i>
             <i class="fab fa-bitbucket fa-4x technical_skills_short_logo"></i>
-        </marquee>
+        </div>
        
     </section>
     <section id="downloads" class="text-center">
         <h2 class="card-h2"> Want to know more about me?</h2>
         <div class="container-fluid">
             <div class="row card-row">
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-12 text-center">
                     <div class="card card-box card-col">
-                        <img src="images/cv.png" class="card-img-top" alt="resume-image">
+                        <img src="images/resume.png" class="card-img-top" alt="cv-image">
                         <div class="card-body">
                           <h5 class="card-title">Resume</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-outline-secondary download-btn"><i class="fas fa-download download-logo"></i> Download Resume</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-lg-6 text-center">
-                    <div class="card card-box card-col">
-                        <img src="images/cv.png" class="card-img-top" alt="cv-image">
-                        <div class="card-body">
-                          <h5 class="card-title">CV</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-outline-secondary download-btn"><i class="fas fa-download download-logo"></i> Download CV</a>
+                          <a href="./downloads/Anandukrishnan Narayanan Resume.pdf" target="_blank" class="btn btn-outline-secondary download-btn"><i class="fas fa-download download-logo"></i> Download Resume</a>
                         </div>
                       </div>
                 </div>
@@ -207,15 +186,15 @@
     </section>
     <section id="contact" class="text-center">
         <div class="container-fluid">
-            <a href="https://github.com/anandukrishnan-narayanan/" target="_blank" class="contact-logo"><i class="fab fa-facebook-f fa-2x"></i></i></a>
+            <a href="https://www.facebook.com/ananduk002" target="_blank" class="contact-logo"><i class="fab fa-facebook-f fa-2x"></i></i></a>
             <i class="fas fa-slash contact-slash fa-2x"></i>
             <a href="https://www.linkedin.com/in/anandukrishnannarayanan/" target="_blank" class="contact-logo"><i class="fab fa-linkedin-in fa-2x"></i></a>
             <i class="fas fa-slash contact-slash fa-2x"></i>
             <a href="https://www.instagram.com/anandukrishnan.narayanan/" target="_blank" class="contact-logo"><i class="fab fa-instagram fa-2x"></i></a>
             <i class="fas fa-slash contact-slash fa-2x"></i>
-            <a href="https://www.instagram.com/anandukrishnan.narayanan/" target="_blank" class="contact-logo"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="https://twitter.com/akn_creative" target="_blank" class="contact-logo"><i class="fab fa-twitter fa-2x"></i></a>
             <i class="fas fa-slash contact-slash fa-2x"></i>
-            <a href="https://github.com/anandukrishnan-narayanan/" target="_blank" class="contact-logo"><i class="fab fa-github fa-2x"></i></a>
+            <a href="https://github.com/akncreative" target="_blank" class="contact-logo"><i class="fab fa-github fa-2x"></i></a>
             
             <div class="row contact-row">
                 <div class="col-lg-3 col-md-6">
